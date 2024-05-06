@@ -1,0 +1,147 @@
+.taskForm {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ gap: .5rem;
+ margin-top: calc(0px - 1rem - .5rem);
+ margin-bottom: 4rem;
+}
+
+.taskForm input {
+ flex: 1;
+ padding: 1rem;
+ color: var(--gray-100);
+ background: var(--gray-500);
+ border:1px solid var(--gray-700);
+ border-radius: .5rem;
+}
+
+.taskForm input:focus {
+ border:1px solid var(--dark-purple);
+}
+
+.taskForm input::placeholder {
+ color: var(--gray-300);
+}
+
+.taskForm button {
+ display: flex;
+ align-items: center;
+ gap: .5rem;
+ border-radius: .5rem;
+ border: none;
+ position: relative;
+
+ padding: 1rem;
+ color: var(--gray-100);
+ background: var(--dark-blue);
+ cursor: pointer;
+ transition: all .3s ease-in-out;
+}
+
+.taskForm button:hover {
+ background: var(--blue);
+}
+
+.taskForm button:disabled {
+ opacity: 0.55;
+ cursor: not-allowed;
+}
+
+.tasks {
+ width: 100%;
+}
+
+.tasks header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+ margin-bottom: 1.5rem;
+}
+
+.headerTaskCounter {
+ display: flex;
+ align-items: center;
+ font-size: .875rem;
+ font-weight: bold;
+ line-height: normal;
+}
+
+.tasks header div:nth-child(1) {
+ color: var(--blue);
+}
+
+.tasks header div:nth-child(2) {
+ color: var(--purple);
+}
+
+.headerTaskCounter span {
+ background: var(--gray-400);
+ padding: .125rem .5rem;
+ border-radius: 100%;
+ color: var(--gray-200);
+ font-size: .750rem;
+ font-weight: bold;
+ margin-left: .250rem;
+}
+
+.whitoutTasks {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+ border-top: 1px solid var(--gray-400);
+ border-radius: .5rem .5rem 0 0;
+}
+
+.whitoutTasks-content {
+ margin-top: 4rem;
+ text-align: center;
+}
+
+
+.tooltip {
+ visibility: hidden;
+ background-color: var(--dark-purple);
+ color: white;
+ text-align: center;
+ border-radius: 6px;
+ padding: .5rem;
+ position: absolute;
+ z-index: 1;
+ width: max-content;
+ bottom: calc(0px - 2.875rem);
+ left: 50%;
+ transform: translateX(-50%);
+ opacity: 0;
+ transition: opacity 0.3s;
+}
+
+.tooltip::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: var(--gray-600) transparent transparent transparent;
+}
+
+.custom-button:hover .tooltip {
+ visibility: visible;
+ opacity: 1;
+}
+
+
+
+@media (max-width: 768px) {
+ .taskForm {
+  margin-top: calc(0px - 1.5rem - 1rem);
+  margin-bottom: 3rem;
+ }
+
+}
