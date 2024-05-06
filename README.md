@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# SeOrganize
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Um to-do list moderno, intuitivo e fácil de usar para organizar suas tarefas diárias.
 
-Currently, two official plugins are available:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Visão Geral
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+SeOrganize é um aplicativo de to-do list desenvolvido em ReactJS com TypeScript. Com uma interface moderna e amigável, permite aos usuários criar, gerenciar e marcar tarefas como concluídas ao longo do dia.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Capturas de Tela
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Aqui estão algumas capturas de tela do aplicativo:
+
+![App Screenshot](https://i.ibb.co/hcjPpym/Captura-de-Tela-2024-05-06-a-s-20-42-49.png)
+
+![App Screenshot](https://i.ibb.co/K7R331r/Captura-de-Tela-2024-05-06-a-s-20-43-24.png)
+
+![App Screenshot](https://i.ibb.co/3Sbbg2V/Captura-de-Tela-2024-05-06-a-s-20-45-04.png)
+
+
+
+---
+
+## Funcionalidades
+
+- Adicionar novas tarefas.
+- Marcar tarefas como concluídas.
+- Remover tarefas da lista.
+- Interface intuitiva e moderna.
+
+---
+
+## Como Usar
+
+### Pré-requisitos
+
+- Node.js instalado
+- npm ou Yarn instalado
+
+### Instalação
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/rafaelclima/seorganize.git
