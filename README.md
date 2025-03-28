@@ -2,9 +2,22 @@
 
 > Um to-do list moderno, intuitivo e fácil de usar para organizar suas tarefas diárias. ✅📌
 
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-blue.svg)](https://tailwindcss.com/)
+<div data-badges>
+  <!-- React Badge -->
+  <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/React-18-blue.svg" alt="React 18" style="height: 26px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+  </a>
+  
+  <!-- TypeScript Badge -->
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/TypeScript-5.0-blue.svg" alt="TypeScript 5.0" style="height: 26px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+  </a>
+  
+  <!-- Tailwind CSS Badge -->
+  <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/TailwindCSS-3-blue.svg" alt="Tailwind CSS 3" style="height: 26px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+  </a>
+</div>
 
 ---
 
